@@ -1,4 +1,4 @@
-:honey_pot: This is a Rekit (2.3.3) boilerplate application project with a correct configuration of the Redux-Saga middleware and other improvements.
+:globe_with_meridians: This is a Rekit (2.3.3) boilerplate application project with a correct configuration of the Redux-Saga middleware and other improvements.
 
 Rekit is a toolkit for building scalable web applications with React, Redux and React-Router; it's an all-in-one solution for creating modern React apps.
 
