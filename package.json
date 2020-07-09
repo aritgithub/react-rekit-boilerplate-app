@@ -4,6 +4,7 @@
   "description": "React/Rekit boilerplate application project",
   "private": true,
   "dependencies": {
+    "@hot-loader/react-dom": "^16.13.0",
     "autoprefixer": "7.1.6",
     "axios": "^0.18.0",
     "babel-core": "6.26.0",
@@ -36,6 +37,7 @@
     "fs-extra": "3.0.1",
     "html-webpack-plugin": "2.29.0",
     "jest": "25.2.7",
+    "link-module-alias": "^1.2.0",
     "lodash": "^4.17.15",
     "nock": "^9.2.3",
     "node-sass-chokidar": "^1.2.1",
@@ -46,7 +48,6 @@
     "raf": "3.4.0",
     "react": "^16.13.0",
     "react-dev-utils": "^5.0.3",
-    "@hot-loader/react-dom": "^16.13.0",
     "react-hot-loader": "^4.12.20",
     "react-redux": "^7.2.0",
     "react-router-dom": "^5.2.0",
@@ -68,9 +69,13 @@
     "whatwg-fetch": "2.0.3"
   },
   "scripts": {
+    "postinstall": "link-module-alias",
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom"
+  },
+  "_moduleAliases": {
+    "react-dom": "node_modules/@hot-loader/react-dom"
   },
   "rekit": {
     "devPort": 6075,
