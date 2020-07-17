@@ -30,3 +30,5 @@ if (module.hot) {
     renderApp(<Root store={store} routeConfig={routeConfig} />);
   });
 }
+
+export { store }
