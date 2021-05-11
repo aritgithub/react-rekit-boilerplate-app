@@ -38,7 +38,7 @@
     "html-webpack-plugin": "2.29.0",
     "jest": "25.2.7",
     "link-module-alias": "^1.2.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "nock": "^9.2.3",
     "node-sass-chokidar": "^1.2.1",
     "object-assign": "4.1.1",
